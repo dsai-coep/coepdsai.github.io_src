@@ -1,6 +1,8 @@
+<!-- dummy pages for categories 
 ---
 layout: category
 title: Edge Case
+sidebar_link: false
 ---
 
 Sample category page. You need to create a page for each category.
@@ -25,3 +27,4 @@ category: My Category
 ```
 
 Posts get listed below here.
+-->

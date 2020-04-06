@@ -1,26 +1,25 @@
 # Dependencies
-markdown:         kramdown
-highlighter:      rouge
+markdown: kramdown
+highlighter: rouge
 
 # Setup
-title:            Hydeout
-tagline:          'A Jekyll theme'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
-url:              https://fongandrew.github.io
-baseurl:          '/hydeout'
-                  # the optional subpath of your site, e.g. "/blog"
-                  # NB: This applies to all pages in your Jekyll site.
-                  # If you want to move just the blog index pages but keep
-                  # other pages at root, see the paginate_path and
-                  # sidebar_blog_link below.
+title: COEP DSAI
+tagline: 'COEP&apos;s Data Science and Artificial Intelligence Club'
+description: 'Data Science and Artificial Intelligence Club at College of Engineering, Pune'
+url: ''
+baseurl: ''
+ # the optional subpath of your site, e.g. "/blog"
+ # NB: This applies to all pages in your Jekyll site.
+ # If you want to move just the blog index pages but keep
+ # other pages at root, see the paginate_path and
+ # sidebar_blog_link below.
 
 author:
-  name:           'Andrew Fong'
-  url:            https://twitter.com/fongandrewc
+  name: 'CoEP DSAI'
 
-paginate:         5
+paginate:    5
 # paginate_path:    '/page:num'
-                    # Or '/blog/page:num' if you want to move your index pages
+# Or '/blog/page:num' if you want to move your index pages
 
 plugins:
   - jekyll-feed
@@ -33,3 +32,6 @@ sidebar_home_link:  true
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
+
+# build settings
+destination: '../website_deploy/'
