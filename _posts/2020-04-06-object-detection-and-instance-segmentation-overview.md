@@ -155,8 +155,9 @@ It first runs a graph based image segmentation algorithm to obtain the initial r
 <u>Similarity Measure</u>:
 We find the similarity between regions based color, texture, size and shape compatibility:
 A Similarity Metric is obtained as follows:
-
+<span>
 $$s(r_i,r_j) = a_1 * S_{colour}(r_i,r_j) + a_2 * S_{texture}(r_i,r_j) + \\ a_3 * S_{size}(r_i,r_j) + a_4 * S_{fill}(r_i,r_j)$$
+</span>
 </li>
 <li>
 <u>Recursive Grouping</u>:
