@@ -64,17 +64,27 @@ Now you got yourself an MNIST classifier: Take an MNIST image, add on your train
 
 ### Experiments
 
-The key point in bulding this MNIST is that we need to optimize in image space so that classification loss decreases. Actual size of CIFAR10 is 32x32 and that of MNIST image is 28x28. After implementing this MNIST classifier, I tried different sizes for MNIST images which is to be placed at the center of CIFAR10 images. Below are the accuracy plots for learning rates 0.01 and 0.1 respectively.
+The key point in bulding this MNIST is that we need to optimize in image space so that classification loss decreases. Actual size of CIFAR10 is 32x32 and that of MNIST image is 28x28. After implementing this MNIST classifier, I tried different sizes for MNIST images which is to be placed at the center of CIFAR10 images. Take a look at adversarial examples below for 14x14 MNIST images. As you can see, the MNIST image of size 14x14 placed at center of 32x32 image and rest of image space has some well crafted noise which helps us to build MNIST classifier.
 
 <center>
-<img src="https://drive.google.com/uc?export=view&id=1HLydieqxLqiA3-NcpfENziFCDLtZJUTo" />
+<img src="https://i.ibb.co/y4SFQD4/input.png" />
+</center>
+
+
+Below are the accuracy plots for learning rates 0.01 and 0.1 respectively.
+
+<center>
+<img src="https://i.ibb.co/4mKyBSK/adv-blog0-01.png" />
 </center>
 
 <center>
-<img src="https://drive.google.com/uc?export=view&id=1QIf6VYBqA3lookwBqlfDMULOjM7pOTqs" />
+<img src="https://i.ibb.co/fHNCVcy/adv-blog0-1.png" />
 </center>
 
-So, we can see from the figure that as size of MNIST image is decreasing, accuracy is increasing. This is because the area in which model needs to optimize i.e. (32x32 - adversarial image area) is increasing and so is the accuracy. The drop of accuarcy at size = 7x7 is due the fact that for odd number, my implementation doesn't place adversarial image at center. So, this reveals another property that by placing the adversarial image at center, we get more accuracy than placing at any other location.
+So, we can see from the figure that as size of MNIST image is decreasing, accuracy is increasing. This is because the area in which model needs to optimize i.e. (32x32 - adversarial image area) is increasing and so is the accuracy. The drop of accuarcy at size 7x7 is due the fact that for odd number, my implementation doesn't place adversarial image at center. So, this reveals another property that by placing the adversarial image at center, we get more accuracy than placing at any other location.
+
+So, this is how you can fool a neural network. Adversarial examples make machine learning models vulnerable to attacks, as in the following scenarios. A self-driving car crashes into another car because it ignores a stop sign. Someone had placed a picture over the sign, which looks like a stop sign with a little dirt for humans, but was designed to look like a parking prohibition sign for the sign recognition software of the car. A spam detector fails to classify an email as spam. The spam mail has been designed to resemble a normal email, but with the intention of cheating the recipient. A machine-learning powered scanner scans suitcases for weapons at the airport. A knife was developed to avoid detection by making the system think it is an umbrella.
+
 
 
 **References** :
