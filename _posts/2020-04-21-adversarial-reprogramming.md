@@ -89,8 +89,8 @@ So, this is how you can fool a neural network. Adversarial examples make machine
 
 **References** :
 
-1. *Adversarial Reprogramming of Neural Networks* - https://arxiv.org/pdf/1806.11146.pdf
-2. https://medium.com/@ml.at.berkeley/tricking-neural-networks-create-your-own-adversarial-examples-a61eb7620fd8
-3. https://towardsdatascience.com/adversarial-examples-in-deep-learning-be0b08a94953
-4. https://rajatvd.github.io/Exploring-Adversarial-Reprogramming/
-5. https://medium.com/onfido-tech/adversarial-attacks-and-defences-for-convolutional-neural-networks-66915ece52e7
+1. *Adversarial Reprogramming of Neural Networks* - [https://arxiv.org/pdf/1806.11146.pdf](https://arxiv.org/pdf/1806.11146.pdf)
+2. [https://medium.com/@ml.at.berkeley/tricking-neural-networks-create-your-own-adversarial-examples-a61eb7620fd8](https://medium.com/@ml.at.berkeley/tricking-neural-networks-create-your-own-adversarial-examples-a61eb7620fd8)
+3. [https://towardsdatascience.com/adversarial-examples-in-deep-learning-be0b08a94953](https://towardsdatascience.com/adversarial-examples-in-deep-learning-be0b08a94953)
+4. [https://rajatvd.github.io/Exploring-Adversarial-Reprogramming/](https://rajatvd.github.io/Exploring-Adversarial-Reprogramming/)
+5. [https://medium.com/onfido-tech/adversarial-attacks-and-defences-for-convolutional-neural-networks-66915ece52e7](https://medium.com/onfido-tech/adversarial-attacks-and-defences-for-convolutional-neural-networks-66915ece52e7)
