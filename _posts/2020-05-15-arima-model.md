@@ -34,7 +34,10 @@ However, this is not always possible because:-
 <hr>
 <h2>Moving Average Model:</h2>
 <p>The intuition behind this model in nature is of reinforcement, i.e, a moving average model tries to learn from the previous errors it has committed and tries to tweak itself accordingly. To better understand this, take a look at the equation below:</p>
+
+
 ![MA_Equation](https://latex.codecogs.com/gif.latex?Y_t%20%3D%20%5Calpha%20&plus;%20%5Cepsilon_t%20&plus;%20%5Cphi_1%20%5Cepsilon_t-1%20&plus;%20%5Cphi_2%20%5Cepsilon_t-2%20&plus;%20...%20&plus;%20%5Cphi_q%20%5Cepsilon_t-q)
+
 <small>But, what does epsilon signify? Simply put, it is the error or the difference between the actual value and the predicted value.</small>
 <br>
 
