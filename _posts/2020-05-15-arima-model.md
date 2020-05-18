@@ -45,9 +45,10 @@ However, this is not always possible because:-
 <hr>
 Now that you've understood the Autoregressive Model and the Moving Averages model, it's time to learn about ARIMA. When the Autoregressive Terms and the Moving Average terms are combined together with differencing to make the time-series stationary(more on this later), we get the ARIMA Model! Since the equation is regressive in nature, we can find the respective weights of the terms in the equation using regression techniques.
 
+
 ![ARIMA Equation](https://latex.codecogs.com/gif.latex?Y_t%20%3D%20%5Calpha%20&plus;%20%5Cbeta%20_1Y_t_-_1%20&plus;%20%5Cbeta%20_2Y_t_-_2%20&plus;%20....%20&plus;%20%5Cbeta%20_pY_t_-_p%20&plus;%20%5Cphi%20_1%5Cepsilon_t_-_1%20&plus;%20%5Cphi%20_2%5Cepsilon_t_-_2%20&plus;%20....%20&plus;%20%5Cphi%20_q%5Cepsilon_t_-_q)
 
-<hr>
+
 
 ### So far, we've understood the basic intuition behind the ARIMA Model. Let's dig a bit deeper and understand the parameters of an ARIMA model.
 
@@ -55,7 +56,7 @@ Now that you've understood the Autoregressive Model and the Moving Averages mode
 
 [1,3,5,4]
 
-<h2 style="font-style:italic;">Now, when we difference the list, we subtract the nth value of the series with the (n-1)th value of the series. For a better understanding:</h2>
+### Now, when we difference the list, we subtract the nth value of the series with the (n-1)th value of the series. For a better understanding:
 
 #### After First Differencing:
 
