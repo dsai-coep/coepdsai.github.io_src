@@ -44,7 +44,7 @@ However, this is not always possible because:-
 <i>Since this model tries to learn from its mistakes, it is better able to account for unpredictable changes in value and is able to correct itself to provide more accurate results and predictions.</i>
 <hr>
 Now that you've understood the Autoregressive Model and the Moving Averages model, it's time to learn about ARIMA. When the Autoregressive Terms and the Moving Average terms are combined together with differencing to make the time-series stationary(more on this later), we get the ARIMA Model! Since the equation is regressive in nature, we can find the respective weights of the terms in the equation using regression techniques.
-<br>
+
 ![ARIMA Equation](https://latex.codecogs.com/gif.latex?Y_t%20%3D%20%5Calpha%20&plus;%20%5Cbeta%20_1Y_t_-_1%20&plus;%20%5Cbeta%20_2Y_t_-_2%20&plus;%20....%20&plus;%20%5Cbeta%20_pY_t_-_p%20&plus;%20%5Cphi%20_1%5Cepsilon_t_-_1%20&plus;%20%5Cphi%20_2%5Cepsilon_t_-_2%20&plus;%20....%20&plus;%20%5Cphi%20_q%5Cepsilon_t_-_q)
 
 <hr>
