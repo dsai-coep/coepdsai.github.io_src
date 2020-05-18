@@ -8,7 +8,7 @@ Author: [Jinit Sanghvi](www.linkedin.com/in/jinit-sanghvi-4329a016b)
 ### Introduction to ARIMA Model
 
 <h3>A brief introduction followed by implementation.</h3>
-<img src="timeseriesforecast.png">
+<img src="https://images.app.goo.gl/iCGZ1GFnqkZxW18B8">
 <p style="text-align:center;">Taken from <a href="https://www.freestockcharts.com/">freestockcharts.com</a></p>
 
 ARIMA or Autoregressive Integrated Moving Average is a purely-regressive model and this model is used for forecasting values of a time series. A time series is essentially a sequence of data points or observations taken at different instances. Time Series are very common to find given how time-dependent most of the worldly schemes and variables are. To better understand this, take a look at the Stock Market or weather reports gathered over a timeline and you'll observe patterns which are highly time-dependent.
@@ -28,23 +28,22 @@ However, this is not always possible because:-
 <h2>AR or Autoregressive Model:</h2>
 <p>The intuition behind this model is that observations at different time-steps are related to the previous value of the variable. For example, on a hot sunny day, you predict that the next day will be hotter because you've noticed increasing temperatures. Similarly, the AR model finds the correlation between future time-steps and past time-steps to forecast future values.<p>
 
-<img src="AR.png">
-<p style="text-align:center;">Taken from <a href="https://www.machinelearningplus.com/">machinelearningplus.com</a></p>
+![AR Equation](https://latex.codecogs.com/gif.latex?Y_t%20%3D%20%5Calpha%20&plus;%20%5Cbeta_1*Y_t_-_1%20&plus;%20%5Cbeta_2*Y_t_-_2%20..%20&plus;%20%5Cbeta_p*Y_t_-_p%20&plus;%20%5Cepsilon_1)
+
 <i>By the above equation, we can see how we can reduce this to a regression problem and statistically find the correlation between future values and earlier time-steps.</i>
 <hr>
 <h2>Moving Average Model:</h2>
 <p>The intuition behind this model in nature is of reinforcement, i.e, a moving average model tries to learn from the previous errors it has committed and tries to tweak itself accordingly. To better understand this, take a look at the equation below:</p>
-<img src="MA.png">
-<p style="text-align:center;">Taken from <a href="https://www.machinelearningplus.com/">machinelearningplus.com</a></p>
-<small>But, what does Epsilon(t) signify? Simply put, it is the error or the difference between the actual value and the predicted value.</small>
+![MA_Equation](https://latex.codecogs.com/gif.latex?Y_t%20%3D%20%5Calpha%20&plus;%20%5Cepsilon_t%20&plus;%20%5Cphi_1%20%5Cepsilon_t-1%20&plus;%20%5Cphi_2%20%5Cepsilon_t-2%20&plus;%20...%20&plus;%20%5Cphi_q%20%5Cepsilon_t-q)
+<small>But, what does epsilon signify? Simply put, it is the error or the difference between the actual value and the predicted value.</small>
 <br>
 
 <i>Since this model tries to learn from its mistakes, it is better able to account for unpredictable changes in value and is able to correct itself to provide more accurate results and predictions.</i>
 <hr>
 Now that you've understood the Autoregressive Model and the Moving Averages model, it's time to learn about ARIMA. When the Autoregressive Terms and the Moving Average terms are combined together with differencing to make the time-series stationary(more on this later), we get the ARIMA Model! Since the equation is regressive in nature, we can find the respective weights of the terms in the equation using regression techniques.
 
-<img src="ARIMA.png">
-<p style="text-align:center;">Taken from <a href="https://www.machinelearningplus.com/">machinelearningplus.com</a></p>
+![ARIMA Equation](https://latex.codecogs.com/gif.latex?Y_t%20%3D%20%5Calpha%20&plus;%20%5Cbeta%20_1Y_t_-_1%20&plus;%20%5Cbeta%20_2Y_t_-_2%20&plus;%20....%20&plus;%20%5Cbeta%20_pY_t_-_p%20&plus;%20%5Cphi%20_1%5Cepsilon_t_-_1%20&plus;%20%5Cphi%20_2%5Cepsilon_t_-_2%20&plus;%20....%20&plus;%20%5Cphi%20_q%5Cepsilon_t_-_q)
+
 <hr>
 
 <h3>So far, we've understood the basic intuition behind the ARIMA Model. Let's dig a bit deeper and understand the parameters of an ARIMA model.</h3>
