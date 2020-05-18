@@ -49,9 +49,9 @@ Now that you've understood the Autoregressive Model and the Moving Averages mode
 
 <hr>
 
-#### So far, we've understood the basic intuition behind the ARIMA Model. Let's dig a bit deeper and understand the parameters of an ARIMA model.
+### So far, we've understood the basic intuition behind the ARIMA Model. Let's dig a bit deeper and understand the parameters of an ARIMA model.
 
-#### Consider a list below, and assume that every successive element of the list is a successive time-step or observation.
+### Consider a list below, and assume that every successive element of the list is a successive time-step or observation.
 
 [1,3,5,4]
 
