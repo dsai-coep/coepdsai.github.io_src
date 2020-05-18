@@ -56,10 +56,13 @@ Now that you've understood the Autoregressive Model and the Moving Averages mode
 
 <h2 style="font-style:italic;">Now, when we difference the list, we subtract the nth value of the series with the (n-1)th value of the series. For a better understanding:</h2>
 
-<h3>After First Differencing:</h3>
-<h3>[3–1,5–3,4–5] = [2,2,-1]</h3>
-<h3>After Second Differencing:</h3>
-<h3>[2–2,-1–2] = [0,-3]</h3>
+#### After First Differencing:
+
+[3–1,5–3,4–5] = [2,2,-1]
+
+#### After Second Differencing:
+
+[2–2,-1–2] = [0,-3]
 
 <p>The reason why we difference the time-series is to make the time-series stationary, i.e, the mean and the variance of the time-series remains constant/stable over time which allows us to reduce components like trend and seasonality(illustrated later). This is important because ARIMA expects the time-series to be stationary. Thus, we keep differencing the time-series till it becomes stationary.</p>
 
