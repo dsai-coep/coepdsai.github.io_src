@@ -49,10 +49,11 @@ Now that you've understood the Autoregressive Model and the Moving Averages mode
 
 <hr>
 
-<h3>So far, we've understood the basic intuition behind the ARIMA Model. Let's dig a bit deeper and understand the parameters of an ARIMA model.</h3>
+#### So far, we've understood the basic intuition behind the ARIMA Model. Let's dig a bit deeper and understand the parameters of an ARIMA model.
 
-<h2 style="font-style:italic;">Consider a list below, and assume that every successive element of the list is a successive time-step or observation.</h2>
-<h3>[1,3,5,4]</h3>
+#### Consider a list below, and assume that every successive element of the list is a successive time-step or observation.
+
+[1,3,5,4]
 
 <h2 style="font-style:italic;">Now, when we difference the list, we subtract the nth value of the series with the (n-1)th value of the series. For a better understanding:</h2>
 
