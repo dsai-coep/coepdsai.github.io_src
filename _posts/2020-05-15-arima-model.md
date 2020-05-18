@@ -5,7 +5,7 @@ title: "Introduction to ARIMA Model"
 
 Author: [Jinit Sanghvi](www.linkedin.com/in/jinit-sanghvi-4329a016b)
 
-###Introduction to ARIMA Model
+### Introduction to ARIMA Model
 
 <h3>A brief introduction followed by implementation.</h3>
 <img src="timeseriesforecast.png">
@@ -14,7 +14,7 @@ Author: [Jinit Sanghvi](www.linkedin.com/in/jinit-sanghvi-4329a016b)
 ARIMA or Autoregressive Integrated Moving Average is a purely-regressive model and this model is used for forecasting values of a time series. A time series is essentially a sequence of data points or observations taken at different instances. Time Series are very common to find given how time-dependent most of the worldly schemes and variables are. To better understand this, take a look at the Stock Market or weather reports gathered over a timeline and you'll observe patterns which are highly time-dependent.
 <br>
 In this post, we'll first cover the theory and then move on to the code
-###Theory
+### Theory
 One of the best ways to be introduced to the model is to understand why we're using it, especially when other effective regression models like linear regression or multivariate regression exists. For time-series forecasting, why do we prefer the ARIMA model? Most of the time-series data available online focuses on the dependent variable, and how the dependent variable changes with time. For models like linear regression, we need independent variables to map a function from dependent variables to dependent variables for prediction.
 However, this is not always possible because:-
 <br>
