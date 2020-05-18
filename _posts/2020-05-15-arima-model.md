@@ -3,7 +3,7 @@ layout: post
 title: "Introduction to ARIMA Model"
 ---
 
-Author: [Jinit Sanghvi](www.linkedin.com/in/jinit-sanghvi-4329a016b)
+Author: [Jinit Sanghvi](www.linkedin.com/in/jinit-sanghvi-4329a016b/)
 
 ### Introduction to ARIMA Model
 
