@@ -16,7 +16,9 @@ Author: [Jinit Sanghvi](https://www.linkedin.com/in/jinit-sanghvi-4329a016b/)
 ARIMA or Autoregressive Integrated Moving Average is a purely-regressive model and this model is used for forecasting values of a time series. A time series is essentially a sequence of data points or observations taken at different instances. Time Series are very common to find given how time-dependent most of the worldly schemes and variables are. To better understand this, take a look at the Stock Market or weather reports gathered over a timeline and you'll observe patterns which are highly time-dependent.
 <br>
 In this post, we'll first cover the theory and then move on to the code
+
 ### Theory
+
 One of the best ways to be introduced to the model is to understand why we're using it, especially when other effective regression models like linear regression or multivariate regression exists. For time-series forecasting, why do we prefer the ARIMA model? Most of the time-series data available online focuses on the dependent variable, and how the dependent variable changes with time. For models like linear regression, we need independent variables to map a function from dependent variables to dependent variables for prediction.
 However, this is not always possible because:-
 <br>
@@ -30,24 +32,20 @@ However, this is not always possible because:-
 
 ## AR or Autoregressive Model
 
-<p>The intuition behind this model is that observations at different time-steps are related to the previous value of the variable. For example, on a hot sunny day, you predict that the next day will be hotter because you've noticed increasing temperatures. Similarly, the AR model finds the correlation between future time-steps and past time-steps to forecast future values.<br>
+The intuition behind this model is that observations at different time-steps are related to the previous value of the variable. For example, on a hot sunny day, you predict that the next day will be hotter because you've noticed increasing temperatures. Similarly, the AR model finds the correlation between future time-steps and past time-steps to forecast future values.
 
-
-<center>$$Y_t  = \alpha + \beta_1Y_{t-1} + \beta_2Y_{t-2} + \dots + \beta_pY_{t-p} + \epsilon_1$$</center>
+$$Y_t  = \alpha + \beta_1Y_{t-1} + \beta_2Y_{t-2} + \dots + \beta_pY_{t-p} + \epsilon_1$$
 
 <!--![AR Equation](https://latex.codecogs.com/gif.latex?Y_t%20%3D%20%5Calpha%20&plus;%20%5Cbeta_1*Y_t_-_1%20&plus;%20%5Cbeta_2*Y_t_-_2%20..%20&plus;%20%5Cbeta_p*Y_t_-_p%20&plus;%20%5Cepsilon_1)-->
-<i>By the above equation, we can see how we can reduce this to a regression problem and statistically find the correlation between future values and earlier time-steps.</i>
-<hr>
+_By the above equation, we can see how we can reduce this to a regression problem and statistically find the correlation between future values and earlier time-steps._
 
+<hr>
 
 ## Moving Average Model
 
-<p>The intuition behind this model in nature is of reinforcement, i.e, a moving average model tries to learn from the previous errors it has committed and tries to tweak itself accordingly. To better understand this, take a look at the equation below:</p>
+The intuition behind this model in nature is of reinforcement, i.e, a moving average model tries to learn from the previous errors it has committed and tries to tweak itself accordingly. To better understand this, take a look at the equation below:
 
 $$Y_t = \alpha + \epsilon_t + \phi_1\epsilon_{t - 1} + \phi_2\epsilon_{t-2} + \dots + \phi_q\epsilon_{t-q}$$
-
-
-<!--![MA_Equation](https://latex.codecogs.com/gif.latex?Y_t%20%3D%20%5Calpha%20&plus;%20%5Cepsilon_t%20&plus;%20%5Cphi_1%20%5Cepsilon_t-1%20&plus;%20%5Cphi_2%20%5Cepsilon_t-2%20&plus;%20...%20&plus;%20%5Cphi_q%20%5Cepsilon_t-q)-->
 
 <small>But, what does $$\epsilon$$ signify? Simply put, it is the error or the difference between the actual value and the predicted value.</small>
 <br>
