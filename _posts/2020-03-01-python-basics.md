@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Get Started with Python (for Machine Learning)"
+title: "Get Started with Python"
 ---
 
 Author: [Aditya Khandelwal](https://www.linkedin.com/in/aditya-khandelwal/)
 
-# Get Started with Python (for Machine Learning)
+# Get Started with Python
 
 <center>
 <img src="https://www.technotification.com/wp-content/uploads/2017/05/Python-programming-compressed.jpg">
@@ -50,30 +50,6 @@ Jupyter Notebook: [Functions and Objects in Python](https://nbviewer.jupyter.org
 
 Video: [Python : The Basics Part 2 (Functions and Objects)](https://www.youtube.com/watch?v=W3RMyphMPR4)
 
-## Important ML Libraries in Python (NumPy, Pandas and ScikitLearn)
-
-This lecture covers the basics of NumPy, Pandas and SciKit Learn, 3 of the most popular libraries for Machine Learning in Python.
-Topics covered include:
-<ul>
-    <li>Numpy:
-    <ul>
-        <li>Datatypes
-        <li>Functions
-        <li>Operations
-        <li>Indexing
-    </ul>
-    <li>Pandas:
-    <ul>
-        <li>Series
-        <li>DataFrame
-        <li>Indexing
-        <li>Functions
-    </ul>
-    <li>Walkthrough of the Iris Dataset using ScikitLearn.
-</ul>
-
-Jupyter Notebook: [Important Libraries in Python (for Machine Learning)](https://nbviewer.jupyter.org/github/adityak6798/adityak6798.github.io/blob/master/Lecture%203%20-%20Important%20Libraries%20in%20Python.ipynb)
-
-Video: [NumPy, Pandas and ScikitLearn for ML](https://www.youtube.com/watch?v=IsXWTsKabY8)
-
-That's all for learning about the basics of Python! Do remember to practice the skills you learnt here, so as to gain mastery over them. In the next post, we will look at learning the basics of Machine Learning. [Find it here]()
+That's all for learning about the basics of Python! Do remember to practice the skills you learnt here, so as to gain mastery over them. 
+This blog is Part 1 of a 2 part series. [Part 2]() covers a theotetical intorduction to Machine Learning and Artificial Intelligence, learning the basics of important ML libraries in Python (NumPy, Pandas and ScikitLearn), a code walkthrough of an ML problem using ScikitLearn, and an implementation of Linear Regression from scratch.
+In the next post, we will look at learning the basics of Machine Learning. [Find it here](https://coepdsai.github.io/2020/03/03/ml-with-python.html)
