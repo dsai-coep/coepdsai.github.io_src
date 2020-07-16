@@ -51,5 +51,5 @@ Jupyter Notebook: [Functions and Objects in Python](https://nbviewer.jupyter.org
 Video: [Python : The Basics Part 2 (Functions and Objects)](https://www.youtube.com/watch?v=W3RMyphMPR4)
 
 That's all for learning about the basics of Python! Do remember to practice the skills you learnt here, so as to gain mastery over them. 
-This blog is Part 1 of a 2 part series. [Part 2]() covers a theotetical intorduction to Machine Learning and Artificial Intelligence, learning the basics of important ML libraries in Python (NumPy, Pandas and ScikitLearn), a code walkthrough of an ML problem using ScikitLearn, and an implementation of Linear Regression from scratch.
+This blog is Part 1 of a 2 part series. Part 2 covers a theotetical intorduction to Machine Learning and Artificial Intelligence, learning the basics of important ML libraries in Python (NumPy, Pandas and ScikitLearn), a code walkthrough of an ML problem using ScikitLearn, and an implementation of Linear Regression from scratch.
 In the next post, we will look at learning the basics of Machine Learning. [Find it here](https://coepdsai.github.io/2020/03/03/ml-with-python.html)
