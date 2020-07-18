@@ -5,6 +5,8 @@ title: "An Introduction to Machine Learning with Python"
 
 Author: [Aditya Khandelwal](https://www.linkedin.com/in/aditya-khandelwal/)
 
+*This blog is a part of "Introductory Lecture Series" conducted by Aditya in 2019*
+
 # An Introduction to Machine Learning with Python
 
 <center>
