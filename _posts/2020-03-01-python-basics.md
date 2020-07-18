@@ -20,16 +20,16 @@ For most Machine learning applications, Python is an essential skill that needs 
 
 ## An introduction into Python
 This lecture covers the basics of Python. Topics covered are:
-<ul>
-    <li>Variables and Datatypes
-    <li>Operators
-    <li>Collection Data Types(Lists, Strings, Sets, Dictionaries, Tuples)
-    <li>The if statement
-    <li>For loops
-    <li>Nested Loops
-    <li>While loops
-    <li>continue and break
-</ul>
+
+* Variables and Datatypes
+* Operators
+* Collection Data Types(Lists, Strings, Sets, Dictionaries, Tuples)
+* The if statement
+* For loops
+* Nested Loops
+* While loops
+* continue and break
+
 
 Jupyter Notebook: [An Introduction into Python](https://nbviewer.jupyter.org/github/adityak6798/adityak6798.github.io/blob/master/Lecture%201%20-%20An%20Introduction%20into%20Python.ipynb)
 
@@ -38,15 +38,15 @@ Video: [Python : The Basics Part 1](https://www.youtube.com/watch?v=iJ8n30fzjH4&
 ## Functions and Objects in Python
 This lecture covers functions and objects in Python.
 Topics covered are:
-<ul>
-    <li>Functions
-    <li>Classes and Objects
-    <li>Membership and Identity Operator
-    <li>range(), zip(), enumerate(), len()
-    <li>String Functions
-    <li>List Functions
-    <li>Dictionary Functions
-</ul>
+
+* Functions
+* Classes and Objects
+* Membership and Identity Operator
+* range(), zip(), enumerate(), len()
+* String Functions
+* List Functions
+* Dictionary Functions
+
 
 Jupyter Notebook: [Functions and Objects in Python](https://nbviewer.jupyter.org/github/adityak6798/adityak6798.github.io/blob/master/Lecture%202%20-%20Functions%20and%20Objects%20in%20Python.ipynb)
 
