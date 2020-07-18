@@ -25,15 +25,16 @@ Deep Learning is a subfield of Machine Learning. It is to do with Neural Network
 ## Artificial Intelligence and Machine Learning: An Overview
 
 This lecture gives an overview of AI and ML. It covers:
+
 <ul>
-    <li>Artificial Intelligence: Goals and Approaches
+    <li>Artificial Intelligence: Goals and Approaches</li>
     <li>Machine Learning:
     <ul>
-        <li>Supervised Learning
-        <li>Unsupervised Learning
-        <li>Reinforcement Learning
-    </ul>
-    <li>Deep Learning
+        <li>Supervised Learning</li>
+        <li>Unsupervised Learning</li>
+        <li>Reinforcement Learning</li>
+    </ul></li>
+    <li>Deep Learning</li>
 </ul>
 
 Jupyter Notebook: [Machine Learning - 1](https://nbviewer.jupyter.org/github/adityak6798/adityak6798.github.io/blob/master/Lecture%204%20-%20Machine%20Learning%201.ipynb)
@@ -44,22 +45,23 @@ Video: [Artificial Intelligence and Machine Learning Overview](https://www.youtu
 
 This lecture covers the basics of NumPy, Pandas and SciKit Learn, 3 of the most popular libraries for Machine Learning in Python.
 Topics covered include:
+
 <ul>
     <li>Numpy:
     <ul>
-        <li>Datatypes
-        <li>Functions
-        <li>Operations
-        <li>Indexing
-    </ul>
+        <li>Datatypes</li>
+        <li>Functions</li>
+        <li>Operations</li>
+        <li>Indexing</li>
+    </ul></li>
     <li>Pandas:
     <ul>
-        <li>Series
-        <li>DataFrame
-        <li>Indexing
-        <li>Functions
-    </ul>
-    <li>Walkthrough of the Iris Dataset using ScikitLearn.
+        <li>Series</li>
+        <li>DataFrame</li>
+        <li>Indexing</li>
+        <li>Functions</li>
+    </ul></li>
+    <li>Walkthrough of the Iris Dataset using ScikitLearn.</li>
 </ul>
 
 Jupyter Notebook: [Important Libraries in Python (for Machine Learning)](https://nbviewer.jupyter.org/github/adityak6798/adityak6798.github.io/blob/master/Lecture%203%20-%20Important%20Libraries%20in%20Python.ipynb)
